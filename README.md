@@ -4,7 +4,7 @@ MobileSAM_plugin est une adaptation QGIS du projet [MobileSAM](https://github.co
 
 # Fonctionnement
 
-MobileSAM_plugin prend en entrée une couche raster, une couche vecteur et une emprise d'analyse. La couche vecteur contient les prompts nécessaires à la création des masques dans MobileSAM, il peut s'agir soit de points, soit de boîtes englobantes. Pour l'emprise d'analyse, vous pouvez soit définir la votre à partir des coordonnées, soit utiliser le zoom du canvas QGIS.
+MobileSAM_plugin prend en entrée une couche raster, une couche vecteur et une emprise d'analyse. La couche vecteur contient les prompts nécessaires à la création des masques dans MobileSAM, il peut s'agir soit de points, soit de boîtes englobantes. Pour l'emprise d'analyse, vous pouvez soit définir la votre à partir des coordonnées, soit utiliser le zoom du canevas QGIS.
 
 MobileSAM_plugin produit en sortie une couche vecteur contenant les polygnones recouvrant les objets à vectorisés indiqués dans la couche vecteur (contenant les prompts) et aussi le score des masques générés par le modèle.
 
